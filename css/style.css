@@ -1,0 +1,242 @@
+/*global css here*/
+*{
+
+margin:0;
+padding: 0;
+
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+a {
+	text-decoration: none;
+}
+
+
+/*header section css here*/
+header{
+	width: 100%;
+	padding: 60px 0px;
+	display: flow-root;
+}
+.nav-bar{
+	width: 100%;
+	float: left;
+}
+.logo{
+	width:25%;
+	float: left;
+	color: #000000;
+}
+.menu{
+	width: 75%;
+	float: right;
+	text-align: right;
+}
+.menu ul li {
+     list-style: none;
+     display: inline-block;
+}
+.menu ul li a{
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+	text-transform: uppercase;
+	margin-left: 80px;
+	font-weight: 400;
+}
+/*header section css end here*/
+/*main post section css start from here*/
+.main-post{
+	width: 100%;
+	display: flow-root;
+}
+.details{
+	padding:75px;
+	
+}
+.details h4{
+	font-family: 'Ubuntu', sans-serif;
+	color: #c8c3b9;
+	font-size: 16px;
+    font-weight: 500;
+
+}
+.details h1{
+	font-family: 'Playfair Display', serif;
+	font-weight: 500;
+	color: #595858;
+	margin: 22px 0px;
+
+}
+.details p{
+	font-family: 'Playfair Display', serif;
+	margin-bottom: 20px;
+	font-weight: 400;
+	color: #626262;
+
+}
+.details a{
+     font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	color: #b4ad9e;
+}
+/*main post section css ends here*/
+/*all post section css start from here*/
+.posts{
+	width: 100%;
+	display: flow-root;
+}
+.gallery{
+     float: left;
+	 padding: 75px;
+
+
+}
+.left{
+	width: 47%;
+	float: left;
+}
+.right{
+	width: 47%;
+	float: right;
+}
+
+.left h4, .right h4
+{
+	font-family: 'Ubuntu', sans-serif;
+	color: #c8c3b9;
+	font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.left h1, .right h1
+{
+	font-family: 'Playfair Display', serif;
+	font-weight: 500;
+	color: #595858;
+	margin: 22px 0px;
+}
+.left p, .right p
+{
+	font-family: 'Playfair Display', serif;
+	margin-bottom: 20px;
+	font-weight: 400;
+	color: #626262;
+}
+
+
+
+
+
+/*all post section css ends here*/
+/*newsletter section css start from here*/
+.newsletter{
+	width: 100%;
+	background-color: #f0f0f0;
+	display: flow-root;
+	padding:75px 0px;
+	margin: 60px 0px;
+}
+.sign-up{
+	text-align: center;
+
+}
+.sign-up h1{
+     font-family: 'Playfair Display', serif;
+     color: #333333;
+	font-weight: 400;
+	 font-size: 30px;
+	margin-bottom: 50px;
+}
+.sign-up input{
+	width: 30%;
+	padding:15px 0px;
+    border:none;
+    border-bottom: 1px solid black;
+    background:transparent;
+    }
+  .sign-up input :: placeholder{
+  	font-family: 'Playfair Display', serif;
+  	font-weight: 400;
+  	color: black;
+ }
+  .sign-up input:focus{
+  	outline: 0px;
+  }
+/*newsletter section css end here*/
+.buttn{
+	width: 100%;
+	
+}
+.buttn button{
+	padding: 15px 32px;
+	font-family: 'Playfair Display', serif;
+	margin-left: 500px;
+	margin-top: 20px;
+	font-size: 20px;
+	margin-bottom: 30px;
+	background-color: transparent;
+	
+}
+.buttn button:hover{
+	text-decoration: none;
+	cursor: pointer;
+	background-color:#f0f0f0;
+	transform: scale(.7);
+	transition: 0.2s;
+}
+/*footer section css start from here*/
+.footer{
+	margin-top: 35px;
+	padding:70px;
+	background-color: #f0f0f0;
+	display: flow-root;
+}
+
+.footer-menu ul li{
+	
+	list-style: none;
+	display: inline-block;
+    
+}
+
+.footer-menu ul li a{
+	font-family: 'Ubuntu', sans-serif;
+	padding-left: 30px;
+	color:#848484;
+	font-size: 14px;
+}
+.social-icon ul li{
+	list-style: none;
+	display: inline-block;
+	align-items: right;
+	margin-left: 30px;
+}
+.social-icon ul li a i{
+	color: black;
+
+
+}
+.social-icon ul li span{
+     font-family: 'Ubuntu', sans-serif;
+	padding-left: 30px;
+	color:#848484;
+	font-size: 14px;
+	margin-left: 70px;
+}
+.footer-right{
+	width: 30%;
+	float: right;
+
+}
+.footer-left{
+	width: 70%;
+	float: left;
+}
+
+
+/*footer section css end here*/
+
+
+
